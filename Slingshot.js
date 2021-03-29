@@ -43,4 +43,8 @@ class SlingShot{
             }
         }
     }
+
+    reattach(object1){
+        this.sling.bodyA = object1;
+    }
 }
